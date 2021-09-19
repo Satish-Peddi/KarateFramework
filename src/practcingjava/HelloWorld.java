@@ -2,13 +2,22 @@ package practcingjava;
 
 public class HelloWorld {
 
+	int x = 1;
+	int y = 2;
+
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		int a = 5;
 		System.out.println("Hello World");
-		for(int i=0;i<a;i++) {
+		System.out.println(sum(1, 5));
+		for (int i = 0; i < a; i++) {
 			System.out.println("Trying to add the project into the github");
+
 		}
+	}
+
+	public static int sum(int x, int y) {
+		return x + y;
 
 	}
 
