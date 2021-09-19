@@ -9,7 +9,7 @@ public class HelloWorld {
 		// TODO Auto-generated method stub
 		int a = 5;
 		System.out.println("Hello World");
-		System.out.println(sum(1, 5));
+		System.out.println(sum(11, 55));
 		for (int i = 0; i < a; i++) {
 			System.out.println("Trying to add the project into the github");
 
