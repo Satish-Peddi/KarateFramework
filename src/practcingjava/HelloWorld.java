@@ -2,8 +2,8 @@ package practcingjava;
 
 public class HelloWorld {
 
-	int x = 1;
-	int y = 2;
+	int x;
+	int y;
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
